@@ -27,7 +27,7 @@ end
 #   total
 # end 
 
-def reduce(array, starting_point == nil)
+def reduce(array, starting_point = nil)
   total = starting_point
   index = 0 
     while index < array.length do
