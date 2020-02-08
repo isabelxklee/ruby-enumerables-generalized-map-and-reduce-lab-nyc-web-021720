@@ -17,16 +17,6 @@ end
 #     expect(reduce(source_array){|memo, n| memo + n}).to eq(6)
 #   end
 
-# def reduce(array, starting_point = 0)
-#   total = starting_point
-#   index = 0 
-#     while index < array.length do
-#       total = yield(array[index])
-#       index += 1
-#     end 
-#   total
-# end 
-
 def reduce(array, starting_point = nil)
   if starting_point
     total = starting_point
