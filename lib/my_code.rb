@@ -32,6 +32,8 @@ def reduce(array, starting_point = nil)
     total = starting_point
     index = 0
   else 
+    total = array[0]
+    index = 1
   end 
   
     while index < array.length do
