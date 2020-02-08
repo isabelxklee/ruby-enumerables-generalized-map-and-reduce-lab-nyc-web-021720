@@ -2,7 +2,7 @@
   #   expect(map([1, 2, 3, -9]){|n| n * -1}).to eq([-1, -2, -3, 9])
   
 def map(array)
-  new = []
+  new = [ ]
   index = 0 
     while index > array.length do
       new.push(yield(array[index]))
